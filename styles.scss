@@ -68,6 +68,7 @@ html body main{
                     height: 40px;
                     margin-left: auto;
                     cursor: pointer;
+                    transition: all 150ms;
                 }
 
                 .tooltip{
@@ -85,6 +86,7 @@ html body main{
                     font-weight: 700;
                     font-size: 13px;
                     background-color: $Very-Dark-Grayish-Blue;
+                    transition: all 150ms;
                     
                     &::before{
                         content: '';

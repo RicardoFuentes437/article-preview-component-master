@@ -57,6 +57,7 @@ html body main .card .content-section .article-author .share-button {
   height: 40px;
   margin-left: auto;
   cursor: pointer;
+  transition: all 150ms;
 }
 html body main .card .content-section .article-author .tooltip {
   position: absolute;
@@ -73,6 +74,7 @@ html body main .card .content-section .article-author .tooltip {
   font-weight: 700;
   font-size: 13px;
   background-color: hsl(217deg, 19%, 35%);
+  transition: all 150ms;
 }
 html body main .card .content-section .article-author .tooltip::before {
   content: "";
