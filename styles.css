@@ -108,6 +108,9 @@ html body main .card .content-section .article-author .tooltip img {
     width: 100%;
     height: 40%;
   }
+  html body main .card .image-section img {
+    border-radius: 10px 10px 0 0;
+  }
   html body main .card .content-section {
     box-sizing: border-box;
     width: 100%;
