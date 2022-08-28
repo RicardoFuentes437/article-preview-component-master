@@ -13,3 +13,13 @@ button.addEventListener('mouseout', (event) => {
     button.style.backgroundColor = '#f0f0f0';
     shareButton.style.fill = "#6e8098";
 });
+
+if (window.matchMedia("(max-width: 920px)").matches) {
+    button.addEventListener('mouseover', (event) => {
+        button.style.backgroundColor = 'hsl(214, 17%, 51%)';
+    });
+    
+    button.addEventListener('mouseout', (event) => {
+        button.style.backgroundColor = '#f0f0f0';
+    });
+}
