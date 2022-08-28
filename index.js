@@ -16,7 +16,7 @@ button.addEventListener('mouseout', (event) => {
 
 if (window.matchMedia("(max-width: 920px)").matches) {
     button.addEventListener('mouseover', (event) => {
-        button.style.backgroundColor = 'hsl(214, 17%, 51%)';
+        button.style.backgroundColor = 'black';
     });
     
     button.addEventListener('mouseout', (event) => {
